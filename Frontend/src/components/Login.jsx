@@ -12,7 +12,7 @@ function Login() {
         
         formState: { errors },
       } = useForm()
-      const onSubmit =async(data) => {
+      
 
         const onSubmit = async(data) => {
           const userInfo = {
@@ -50,7 +50,7 @@ function Login() {
           });
 
 
-      }
+      
     };
   return (
     <div>
