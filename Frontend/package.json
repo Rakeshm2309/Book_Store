@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npm run dev",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -13,9 +12,11 @@
   "dependencies": {
     "axios": "^1.7.3",
     "react": "^18.3.1",
+    "react-card-slider-component": "^1.0.9",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.2",
     "react-hot-toast": "^2.4.1",
+    "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^6.26.0",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1"
